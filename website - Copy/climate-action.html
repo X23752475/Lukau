@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal 13: Climate Action</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sustainable Development Goal 13</h1>
+        <p>Climate Action: Take urgent action to combat climate change and its impacts.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="climate-action.html">Goal 13</a></li>
+            <li><a href="life-below-water.html">Goal 14</a></li>
+			 <li><a href="No poverty.html">Goal 1</a></li>
+			  <li><a href="Zero hunger.html">Goal 2</a></li>
+			   <li><a href="index.html">Goal 3</a></li>
+			    <li><a href="quality-education.html">Goal 4</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Introduction Section -->
+        <section class="introduction">
+            <h2>Introduction to Goal 13: Climate Action</h2>
+            <p>
+                Climate change is one of the most pressing challenges of our time, posing significant threats to human life, ecosystems, and global economies. The United Nations has identified "Climate Action" as Goal 13 of the Sustainable Development Goals (SDGs), calling for immediate and sustained efforts to combat climate change and mitigate its impacts. By addressing climate change, we can build a sustainable future that ensures environmental protection and social equity for future generations.
+            </p>
+            <p>
+                Goal 13 emphasizes reducing greenhouse gas emissions, enhancing climate resilience, and supporting international cooperation to address this global issue. It aims to empower communities through education and awareness, providing them with the tools to adapt to the challenges posed by climate-related disasters. This goal underscores the critical role governments, organizations, and individuals play in mitigating climate change by adopting sustainable practices and policies.
+            </p>
+        </section>
+
+        
+            <ul>
+                <li>Strengthen resilience to climate-related hazards.</li>
+                <li>Improve education on climate change mitigation.</li>
+                <li>Promote sustainable practices worldwide.</li>
+            </ul>
+        </section>
+
+        <!-- Grid Section -->
+<section class="image-grid my-5">
+    <h2>Images</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="https://media.istockphoto.com/id/1333718098/photo/forest-fires-caused-by-climate-change.jpg?s=612x612&w=0&k=20&c=KwZZtk45n_aeIMpgvkZ-sBoXfRy6RzotVNKcKafFqZY=" class="img-fluid" alt="Image 1" style="width: 200px; height: 100px;">
+        </div>
+        <div class="col-md-3">
+            <img src="https://media.istockphoto.com/id/1661126796/photo/top-view-of-a-green-landscape-with-half-in-drought.jpg?s=612x612&w=0&k=20&c=xAv8-A7OEMW_kB1b8SvpjZGd_98QmIC0eVs3u12e0Dc=" class="img-fluid" alt="Image 2" style="width: 200px; height: 100px;">
+        </div>
+        <div class="col-md-3">
+            <img src="https://media.istockphoto.com/id/1388420740/photo/net-zero-and-carbon-neutral-concepts-net-zero-emissions-goals-a-climate-neutral-long-term.jpg?s=612x612&w=0&k=20&c=3ZsKkJHs8FnAk5dXdCOjd85DyKu3RissYxk161yFgBM=" class="img-fluid" alt="Image 3" style="width: 200px; height: 100px;">
+        </div>
+        <div class="col-md-3">
+            <img src="https://media.istockphoto.com/id/1082458016/photo/carbon-dioxide-emission-asia.jpg?s=1024x1024&w=is&k=20&c=OHX_WInPVtdI5IX0gelq7wqzPS0Qe5aG9VXrxYU0Nls=" class="img-fluid" alt="Image 4" style="width: 200px; height: 100px;">
+        </div>
+    </div>
+</section>
+
+
+        <!-- Form Section with Validation -->
+        <section class="contact-form my-5">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="topic" class="form-label">Topic:</label>
+                    <select id="topic" class="form-select">
+                        <option value="">Select a topic</option>
+                        <option value="climate-action">Climate Action</option>
+                        <option value="sustainability">Sustainability</option>
+                        <option value="general">General Inquiry</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" class="form-control" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="validateForm()">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Learn more about the <a href="https://sdgs.un.org/goals" target="_blank">UN Sustainable Development Goals</a>.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript for Form Validation -->
+    <script src="script.js"></script>
+</body>
+</html>

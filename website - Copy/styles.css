@@ -1,0 +1,90 @@
+/* Basic reset and universal styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    background-color: #343a40;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+/* Introduction section */
+.introduction {
+    margin-bottom: 2rem;
+}
+
+/* Carousel styles */
+.carousel {
+    margin-bottom: 2rem;
+}
+
+.carousel-images {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-images img {
+    margin: 0 5px;
+}
+
+/* Image grid */
+.image-grid .row > div {
+    margin-bottom: 1rem;
+}
+
+/* Form styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .form-control {
+    margin-bottom: 1rem;
+}
+
+.contact-form .btn {
+    display: block;
+    width: 100%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
